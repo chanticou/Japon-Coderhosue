@@ -1,0 +1,946 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  max-width: 1000%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*FOOTER GENERAL*/
+.contenedor-footer{
+  width: 100%;
+  max-width: 1000%;
+  height:30%;
+  display:flex;
+  justify-content: space-around;
+  background-color:#0b090a;
+  opacity:0.7;
+  margin-top: 100px;
+  box-shadow:  10px 5px 20px black;
+  color:gold;
+  font-size: 25px;
+}
+
+
+
+
+
+/*BODY INDEX*/
+.index-body{
+  background-image: url("../img/fondo-body.jpg");
+  width: 100%;
+  max-width: 1000%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 15px;
+  box-shadow:  10px 5px 20px black;;
+  
+}
+
+
+/*HEADER INDEX*/
+.index-header{
+  display:flex;
+  justify-content: space-around;
+  background-color:#0b090a;
+  opacity:0.7;
+  width:100%;
+  max-width: 1000%;
+  color:gold;
+}
+
+/*TITULO*/
+.titulo-index{
+  margin-top: 20px;
+  font-size: 80px;
+ 
+}
+
+
+/*LINKS*/
+.link-nav:link,
+.link-nav:visited {
+  background-color:rgb(20, 20, 110);
+  color:white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  border-radius:50px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.link-nav:hover,
+.link-nav:active {
+  background-color:rgb(37, 119, 146);
+
+}
+
+.item-index{
+  display: inline;
+}
+
+
+
+
+/*MAIN*/
+/*PRIMER PARRAFO*/
+
+
+.primer-parrafo{
+  margin:50px 480px 50px 480px;
+  font-size:25px;
+  text-align: justify;
+}
+
+
+/*IMAGENES INDEX, TAMAÑO Y HOVER */
+
+/*TRANSITIONDEMOGRAFIA*/
+.box-demo{
+  display:inline-block;
+  position:relative;
+}
+
+.box-demo>.DIV-TRANSITION__1{
+  position:absolute;
+  top:100px;
+  left:25px;
+  z-index:-1;
+  padding:10px;
+  margin-left:0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.index-img__demo:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.index-img__demo{
+  width: 85%;
+  height: 75%;
+
+  box-shadow:  10px 5px 20px black;
+  border-radius: 60%;
+  opacity:1;
+  border-radius: 20px;
+  margin-top:100px;
+  margin-left:200px;
+
+}
+
+
+
+/*TRANSITION COMIDA  */
+.box-comida{
+  display:inline-block;
+  position:relative;
+}
+
+.box-comida>.DIV-TRANSITION__2{
+  position:absolute;
+  top:100px;
+  left:25px;
+  z-index:-1;
+  padding:10px;
+  margin-left:0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.index-img__comida:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.index-img__comida{
+  width: 30%;
+  height: 20%;
+
+  box-shadow:  10px 5px 20px black;
+  border-radius: 60%;
+  opacity:1;
+  border-radius: 20px;
+  margin-top:100px;
+  margin-left:700px;
+}
+
+
+/*TRANSITION ancestral  */
+.box-ancestral{
+  display:inline-block;
+  position:relative;
+}
+
+.box-ancestral>.DIV-TRANSITION__3{
+  position:absolute;
+  top:100px;
+  left:25px;
+  z-index:-1;
+  padding:10px;
+  margin-left:0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.index-img__ancestral:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.index-img__ancestral{
+  width: 60%;
+  height: 50%;
+
+  box-shadow:  10px 5px 20px black;
+  border-radius: 60%;
+  opacity:1;
+  border-radius: 20px;
+  margin-top:200px;
+  margin-left:200px;
+}
+
+
+
+
+
+
+
+
+/*TRANSITION COMIDA  */
+.box-anime{
+  display:inline-block;
+  position:relative;
+}
+
+.box-anime>.DIV-TRANSITION__4{
+  position:absolute;
+  top:100px;
+  left:25px;
+  z-index:-1;
+  padding:10px;
+  margin-left:0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.index-img__anime:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.index-img__anime{
+  width: 55%;
+  height: 45%;
+
+  box-shadow:  10px 5px 20px black;
+  border-radius: 60%;
+  opacity:1;
+  border-radius: 20px;
+  margin-top:45px;
+  margin-left:480px;
+
+}
+
+
+
+/*******************************ANIME*******************************************/
+
+
+/*MAIN*/
+/*PRIMER PARRAFO ANIME*/
+
+/*HEADER*/
+.header-anime{
+  background-image: url("../img/youreName-cover.png");
+  width: 100%;
+  max-width: 1000%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 15px;
+
+}
+
+/*HEADER ANIME*/
+.flex-nav__anime{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*TITULOS Y SUBTITULO ANIME*/
+.titulos-principales{
+  color:gold;
+  font-size:20px;
+  
+}
+/*TITULO ANIME*/
+.header-titulo__anime{
+  margin-top:50px;
+}
+
+/*SUBTITULO ANIME*/
+.header-subtitulo__anime{
+  margin-top: 0;
+}
+
+
+/*BODY*/
+.body-anime {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  max-width: 1000%;
+  line-height: 1.5;
+  font-weight: 50;
+  background-color: whitesmoke;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+
+.primer-parrafo__anime {
+  margin: 10px;
+  color: black;
+  padding: 50px 100px 100px 100px;
+  font-weight: bold;
+}
+
+
+
+/*NAV-BAR*/
+
+.link-nav__anime:link,
+.link-nav__anime:visited {
+  background-color:rgb(20, 20, 110);
+  color:white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  border-radius:50px;
+  margin-top: 50px;
+  font-size: 15px;
+
+}
+
+.link-nav__anime:hover,
+.link-nav__anime:active {
+  background-color:rgb(37, 119, 146);
+
+}
+
+.item-anime{
+  display: inline;
+}
+
+/*IMAGEN ASTROBOY*/
+.img-astroboy {
+
+  width: 800px;
+  height: 350px;
+
+}
+
+.box-uno__anime {
+  display: flex;
+  flex-direction: row;
+ 
+  margin-bottom:7px;
+
+
+}
+
+.parrafo-astroboy {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 50px;
+}
+
+
+/*TAMAÑO Y BORDE A LAS IMAGENES*/
+.img-pokemon {
+  border: black 2px solid;
+  border: url("../img/pokemon.jpg");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+
+/*TRANSITION POKEMON*/
+.pokemon-box{
+  display:inline-block;
+  position:relative;
+}
+
+.pokemon-box>.DIV-TRANSITION{
+  position:absolute;
+  top:100px;
+  left:25px;
+  z-index:-1;
+  padding:10px;
+  margin-left:0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.img-pokemon:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+
+
+
+
+.img-zodiaco {
+  border: black 2px solid;
+  border: url("../img/caballeroszodiaco.jpg");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+/*TRANSITION ZODIAOC0*/
+
+.zodiaco-box{
+  display:inline-block;
+  position:relative;
+}
+
+.zodiaco-box>.DIV-TRANSITION{
+  position:absolute;
+  top:100px;
+  left:35px;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img-zodiaco:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+.img-sailor {
+  border: black 2px solid;
+  border: url("../img/sailormoon.jpg.png");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+/*transition sailor mooon*/
+.sailor-box{
+  display:inline-block;
+  position:relative;
+}
+
+.sailor-box>.DIV-TRANSITION{
+  position:absolute;
+  top:103px;
+  left:75px;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img-sailor:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+.img-death {
+  border: black 2px solid;
+  border: url("../img/Death\ Note.jpg");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+/*transition DEATH NOTE*/
+.death-box{
+  display:inline-block;
+  position:relative;
+}
+
+.death-box>.DIV-TRANSITION{
+  position:absolute;
+  top:100px;
+  left:45px;
+  z-index:-1;
+  padding:10px;
+  margin-left:40px;
+  font-weight: bold;
+  font-size: 30px;
+  
+
+}
+
+.img-death:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+.img-nana {
+  border: black 2px solid;
+  border: url("../img/nanaAnime.jpg");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+/*transition NANA*/
+.nana-box{
+  display:inline-block;
+  position:relative;
+}
+
+.nana-box>.DIV-TRANSITION{
+  position:absolute;
+  top:100px;
+  left:75px;
+  z-index:-1;
+  padding:10px;
+  margin-left:40px;
+  font-weight: bold;
+  font-size: 30px;
+  
+
+}
+
+.img-nana:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+.img-eroge {
+  border: black 2px solid;
+  border: url("../img/Eroge\ H\ \(Mafuyu\ Orifushi\).jpg");
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.eroge-box{
+  display:inline-block;
+  position:relative;
+}
+
+.eroge-box>.DIV-TRANSITION{
+  position:absolute;
+  top:100px;
+  left:45px;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.img-eroge:hover{
+  opacity: 0.3;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ANIME GRID*/
+
+.anime-grid {
+  display: grid;
+  grid-template-areas: "txt-pokemon    txt-zodicaco   txt-sailor"
+    "img-pokemon    img-zodiaco    img-sailor"
+    "txt-death      txt-nana       txt-eroge"
+    "img-death      img-nana       img-eroge";
+
+
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 20px;
+  column-gap: 5px;
+  align-items: center;
+  text-align: justify;
+
+
+
+
+}
+
+.txt-pokemon {
+  grid-area: txt-pokemon;
+}
+
+.txt-zodicaco {
+  grid-area: txt-zodiaco;
+}
+
+.txt-sailor {
+  grid-area: txt-sailor;
+}
+
+.img-pokemon {
+  grid-area: img-pokemon;
+}
+
+.img-zodiaco {
+  grid-area: img-zodiaco;
+}
+
+.img-sailor {
+  grid-area: img-sailor;
+}
+
+.txt-death {
+  grid-area: txt-death;
+}
+
+.txt-nana {
+  grid-area: txt-nana;
+}
+
+.txt-eroge {
+  grid-area: txt-eroge;
+}
+
+.img-death {
+  grid-area: img-death;
+}
+
+.img-nana {
+  grid-area: img-nana;
+}
+
+.img-eroge {
+  grid-area: img-eroge;
+}
+
+
+
+
+
+
+/************************************COMIDA***************************************************-*/
+
+
+
+
+/*body*/
+.body-comida {
+  background-color: white;
+}
+
+
+/*MAIN PRIMER PARRAFO*/
+.contenedor-main__parrafo {
+  /*FLEX*/
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+}
+
+
+
+
+img {
+  width: 1000px;
+}
+
+
+
+/*IMAGEN MANO RAMEN*/
+
+.contenedor-main__comida {
+  display: flex;
+  margin-right: 20px;
+}
+
+.mano-ramen {
+  height: 900px;
+
+}
+
+.parrafo1 {
+
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+/*TITULO RAMEN*/
+.titulo-ramen {
+  text-align: center;
+}
+
+
+
+/*PARTE SUSHI*/
+.sushi {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+
+.sushi-imagen {
+  transform: rotateY(130deg);
+}
+
+.sushi-parrafo {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 50px;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.sushi-imagen {
+  margin-right: 50px;
+  width: 1000px;
+
+}
+
+
+/*PARTE YAKISOBA*/
+.yakitory {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.yakitory-parrafo {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------CULTURA ANCESTRAL---------------------------------------*/
+/*HEADER*/
+.flex-header__ancestral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1000%;
+  background-image: linear-gradient(to top, #110d05, #1c1507, #251c0a, #2f220c, #3a290d, #44300e, #4e370e, #593e0e, #64480e, #6e520c, #785c0b, #816708);
+
+}
+
+
+
+/*IMAGEN GEISHA*/
+
+
+.conteiner-geisha {
+  line-height: 0;
+}
+
+.img-geisha {
+  background-image: url("../img/geisha.jpg");
+  width: 100%;
+  max-width: 1000%;
+  background-repeat: no-repeat;
+
+}
+
+.geisha-titulo {
+  line-height: 1.5;
+  position: absolute;
+  color: #f4d58d;
+  margin-top: 10px;
+  margin-left: 390px;
+}
+
+.geisha-parrafo {
+  position: absolute;
+  color: #f4d58d;
+  line-height: 1.5;
+  margin-top: 220px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/*SUMO - BUDISMO*/
+
+.imagenes-ancestral {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+
+
+.sumo-img {
+  background-image: url("../img/sumo}.jpg");
+  width: 50%;
+
+}
+
+.religion-img {
+  background-image: url("../img/budismo.jpg");
+  width: 50%;
+
+}
+
+
+/*PARRAFOS SUMO Y ANCESTRAL*/
+.parrafos-ancestral {
+
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+}
+
+.sumo-parrafo {
+  width: 50%;
+  margin: 30px 100px 0 100px;
+
+}
+
+.religion-parrafo {
+  width: 50%;
+  margin: 30px 100px 0 100px;
+}
+
+
+
+
+
+
+
+/*--------------------------login------------------------------*/
+
+.mainLogin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 500px;
+  text-align: justify;
+}
+
+
+/*-------------------DEMOGRAFIA--------------------------------*/
+
+.img-demografia {
+  width: 100%;
+  max-width: 1000%;
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
+
+
+.tabla1 {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.table-one {
+  margin: 70px 0 10px 200px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.table-two {
+  margin: 30px 0 0 500px;
+}
